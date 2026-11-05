@@ -1,0 +1,5 @@
+-r requirements.txt
+-r requirements-gmail.txt
+-r requirements-apisperu.txt
+-r requirements-reportes.txt
+gunicorn>=23,<24; sys_platform != 'win32'

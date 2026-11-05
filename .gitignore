@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+*.dump
+*.backup
+*.log
+.venv/
+__pycache__/
+*.pyc
+
+.private/
+credentials*.json
+token*.json
+client_secret*.json
+venv/
